@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myview="http://schemas.android.com/apk/res/com.example.textivew"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.textivew.MainActivity" >
+
+    <com.example.textivew.MyView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fdsfdsfds "
+        myview:textSize="30dip"
+        myview:textColor="#e3e222" />
+
+</RelativeLayout>
